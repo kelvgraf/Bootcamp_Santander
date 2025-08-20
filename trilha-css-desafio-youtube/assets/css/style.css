@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+}
+
+.barra-menu {
+  height: 56px;
+  width: 1440px;
+
+  margin: 0;
+  padding: 0 24px 0 24px;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+#botaoyb {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 24px;
+}
+
+#notificacao {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 24px;
+}
+
+#main {
+  display: flex;
+  flex-flow: row wrap;
+  left: 75px;
+  top: 84px;
+  gap: 16px;
+  justify-content: space-evenly;
+}
+
+#video {
+  width: 952px;
+  height: 746px;
+  margin-top: 20px;
+  margin-left: 40px;
+  flex-flow: column wrap;
+}
+
+#titulovideo {
+  height: 23px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #000000;
+}
+
+button {
+  background: red;
+  color: white;
+  width: 159px;
+  height: 42px;
+  border-radius: 2px;
+  text-transform: uppercase;
+  border-color: red;
+}
+
+#acoes {
+  display: flex;
+  flex-direction: row;
+  width: 932px;
+  height: 42px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.avatar {
+  display: flex;
+  flex-direction: row;
+  height: 42px;
+}
+
+#usuario {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 24px;
+}
+
+#usuario img{
+  width: 100%;
+}
+
+h4 {
+  margin-block: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #000000;
+}
+
+h5 {
+  margin-block: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #000000;
+}
+.avatar-acoes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.tamanho {
+  height: 24px;
+  width: 24px;
+  margin-right: 10px;
+}
+
+.tamanho-83 {
+  width: 83px;
+  height: 16px;
+}
+
+.infovideo {
+  height: 16px;
+  margin-block: 6px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: #000000;
+}
+
+#descricao {
+  height: 42px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #000000;
+}
+
+.info {
+  margin-block: 0;
+  padding: 0;
+  line-height: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 0.75rem;
+  color: #000000;
+}
+
+.item-recomendado {
+  flex-flow: row wrap;
+  column-gap: 30px;
+  flex-shrink: 1;
+}
+
+.descricao-recomendado {
+  display: flex;
+  gap: 0.65rem;
+  flex-direction: column;
+  margin: 0;
+  height: 90px;
+  padding: 0;
+}
+
+#video-recomendado {
+  display: flex;
+  flex-flow: row nowrap;
+
+  justify-content: space-around;
+  width: 366px;
+  height: 938px;
+  margin-top: 20px;
+}
+
+.margin-right {
+  margin-right: 10px;
+}
+
+.thumb-recomendado {
+  display: flex;
+  margin: 0;
+  max-width: 196px;
+  flex-direction: column;
+  column-gap: 1rem;
+  row-gap: 1rem;
+}
+
+.margin-bottom {
+  margin-bottom: 10px;
+}
